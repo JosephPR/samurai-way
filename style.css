@@ -6,6 +6,33 @@ body {
     color: cornsilk;
     background-color: black;
   }
+  h2{
+    color: white;
+  
+  }
+  h2:hover{
+    color: crimson;
+   
+  }
+  span{
+    color: crimson;
+    font-size: 30px;
+  }
+ 
+  
+  .nav{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .principles{
+    text-align: center;
+  }
+  .intro{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+  }
   .wrapper {
     transition: background 4s ease;
   }
@@ -21,12 +48,40 @@ body {
   }
   
   .title {
-  
-    white-space: nowrap;
-    font-weight: 100;
+   
     font-size: 3vw;
   }
 
   .end{
-    margin-top: 350px;
+    margin-top: 100px;
   }
+  .last{
+    height: 100%;
+  }
+  a{
+    color: rgb(138, 28, 28);
+    text-decoration: none;
+  }
+  .way{
+    margin: -50px;
+  }
+  .way:hover{
+    color: rgb(199, 43, 43);
+    transition: background 2s ease;
+  }
+  .content {
+    padding:2% 8%;
+  
+  }
+  .samurai{
+    float: left;
+    max-width: 45%;
+    
+  }
+  .origin{
+padding-left: 30%;
+ } 
+
+ /* .famous > li{
+  margin: 10%;
+} */
